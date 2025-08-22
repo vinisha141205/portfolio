@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vinisha's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Vinisha's Portfolio</h1>
+        <p>Web Developer | JavaScript Enthusiast</p>
+        <button id="theme-toggle">🌙</button>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#social">Social</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Vinisha, a beginner web developer passionate about learning JavaScript and building cool projects.</p>
+            <a href="resume.pdf" download class="resume-btn">Download Resume</a>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-bar">
+                <span>HTML</span>
+                <div class="bar"><div class="progress" data-width="90%"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>CSS</span>
+                <div class="bar"><div class="progress" data-width="80%"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>JavaScript</span>
+                <div class="bar"><div class="progress" data-width="75%"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>Git</span>
+                <div class="bar"><div class="progress" data-width="50%"></div></div>
+            </div>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>Bachelor of Technology in Computer Science and Engineering </strong><br>
+                    Indian Institute Of Information Technology,Ranchi , 2024 - 2028
+                </li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>To-Do List App</strong><br>
+                    A simple app to manage daily tasks.
+                </li>
+                <li>
+                    <strong>Calender</strong><br>
+                    A simple calendar to organize your tasks and events.
+                </li>
+            </ul>
+        </section>
+        <section id="social">
+            <h2>Social Links</h2>
+            <div class="social-icons">
+                <a href="https://github.com/vinisha141205" target="_blank" title="GitHub">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+                </a>
+                <a href="https://linkedin.com/in/vinisha kumari" target="_blank" title="LinkedIn">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+                </a>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <button id="contact-btn">Show Email</button>
+            <p id="email" style="display:none;">vinishakumari7@email.com</p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Portfolio
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
